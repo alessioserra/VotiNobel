@@ -53,6 +53,7 @@ public class EsameDAO {
 			st.setInt(3, esame.getVoto());
 			st.setInt(4, esame.getCrediti());
 			
+			//N.B.
 			int res = st.executeUpdate();	
 
 			if (res == 1)
